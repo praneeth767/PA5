@@ -67,6 +67,7 @@ def decrypt(en_msg, p, key, q):
 def main():
 	msg=input('Enter message: ')
 	print("Original Message :", msg)
+	print("The message you entered is :", msg)
 
 	q = random.randint(pow(10, 20), pow(10, 50))
 	g = random.randint(2, q)
